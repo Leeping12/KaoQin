@@ -1,0 +1,15 @@
+素材火测试环境：windows+php5.4 apache 开启伪静态
+ linux+宝塔+php5.4 apache 开启伪静态
+ 
+ 本系统要开启短标签：
+//php.ini中
+short_open_tag = On
+然后重启服务器
+ 
+1.导入demo_165.sql
+2.修改 数据库配置文件：config\config.php
+
+本系统只有后台：
+直接域名访问
+账号admin 密码 123456
+
